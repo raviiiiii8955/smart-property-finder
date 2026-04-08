@@ -33,5 +33,6 @@ def health():
 if __name__ == '__main__':
     init_db()
     print("✅ Database initialized")
-    print("🚀 Server running at http://localhost:5001")
-    app.run(debug=False, port=5001, use_reloader=False)
+    port = int(os.environ.get('PORT', 5001))
+    print(f"🚀 Server running at http://localhost:{port}")
+    app.run(debug=False, host='0.0.0.0', port=port, use_reloader=False)
