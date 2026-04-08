@@ -1,0 +1,10 @@
+{
+  "demo": {
+    "hashed_password": "$2b$12$V/YHc81uObxC2w52qqvKoOGGRwDlDBlKBkOS7nz.Xe2pjwPPpQR9y",
+    "full_name": "Demo User",
+    "favorites": [
+      109,
+      63
+    ]
+  }
+}
